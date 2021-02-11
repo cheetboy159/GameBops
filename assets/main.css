@@ -1,0 +1,350 @@
+* {
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 48em) {
+    body {
+        font-size: 1rem;
+    }
+    
+    h2,
+    h3 {
+        font-size: 1.25rem;
+    } 
+
+    form {
+        max-width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        padding: 2%;
+    }
+
+    ol {
+        font-size: 16px;
+    }
+
+    .game-display,
+    .youtube-display {
+        margin: 6px;
+        padding: 5px !important;
+    }
+
+    .game-save-btn,
+    .track-save-btn {
+        font-size: 14px !important;
+    }
+
+    .add {
+        height: 16px !important;
+        width: 16px !important;
+    }
+    #GameBops {
+        font-size: 30px; 
+    }
+
+    #game-bops-img {
+        height: 30px !important;
+        width: 30px !important;
+    }
+    #sub-header {
+        font-size: 18px;
+    }
+    #search-icon {
+        height: 28px;
+        width: 28px;
+    }
+    #middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+body {
+    background: rgb(53, 53, 53);
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: 'Verdana' !important;
+}
+
+nav {
+    background: white;
+    border-bottom: solid 1px rgb(200, 200, 200);
+    box-shadow: 0 3px 15px -15px  rgb(160, 160, 160);
+}
+
+header {
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+h2,
+h3,
+h4 {
+    font-family: 'Ubuntu' 'sans-serif';
+    color: white;
+    letter-spacing: 3px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    background-image: url("images/milky-way-dark.jpg");
+    background-repeat: inherit; 
+    background-size: auto;
+    padding: 6% 10%;
+    border: 2px solid rgb(200, 200, 200);
+    box-shadow: 2px 2px 20px rgb(175, 175, 175);
+    border-radius: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    max-width: 46%;
+}
+
+input {
+    line-height: 30px !important;
+    border-radius: 8px !important;
+    margin: 0 5px 0 16px !important;
+}
+
+img {
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 8px;
+}
+
+a {
+    color:rgb(48, 155, 255);
+}
+
+ol {
+    font-size: 18px;
+    padding: 2% 15%;
+}
+
+.page-content {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.game-img:hover {
+    background-color: rgb(240, 240, 240);
+    opacity: 0.8;
+}
+
+.game-save-btn,
+.track-save-btn {
+    background:rgb(53, 53, 53);
+    color: white;
+    transition: 0.2s ease-in-out;
+    height: auto;
+    width: auto;
+    padding: 6px;
+    margin: 1px 0 0 15px; 
+    border-radius: 5px;
+}
+
+.game-save-btn:hover,
+.track-save-btn:hover {
+    color: white;
+    background: rgb(61, 152, 255);
+}
+
+.game-display,
+.youtube-display,
+.freeToPlay {
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 16px;
+    text-align: center;
+    padding: 2%;
+    box-shadow: 5px 5px 30px rgb(15, 15, 15);
+}
+
+.music-img {
+    margin: 5%; 
+}
+
+.music-result {
+    margin: 1% 5%;
+    text-align: left;
+}
+
+.track-li {
+    margin-top: 8px;
+} 
+
+.track:hover {
+    color:rgb(48, 155, 255);
+}
+
+.free-game-result {
+    margin: 15px;
+}
+
+.add {
+    border: none;
+    height: 24px;
+    width: 24px;
+    padding: 0px 2px 3px 2px;
+    margin-right: 5px;
+}
+
+.dropdown.menu>li.is-dropdown-submenu-parent>a::after {
+    border-color: rgb(48, 155, 255) transparent transparent;
+    margin: 0 auto;
+}
+
+#GameBops {
+    font-family: Verdana;
+    letter-spacing: 5px;
+    margin: 10px;
+    text-shadow: 1px 1px 8px rgb(185, 185, 185);
+}
+
+#gamebops-img {
+    border: none;
+    width: 52px;
+    height: 52px;
+    margin-right: 3%;
+}
+
+#sub-header {
+    font-family: serif;
+}
+
+#search-btn {
+    height: 40px;
+    width: 54px;
+    background: rgb(0, 132, 255);
+    border: solid 2px rgb(240, 240, 240);
+    border-radius: 8px;
+    margin-left: -14px;
+    margin-right: 16px;
+    position: relative; 
+    transition: 0.2s ease-in-out;
+}
+
+#search-btn:hover {
+    background: rgb(48, 155, 255);
+    padding: 0px;
+}
+
+#search-icon {
+    border: none;
+}
+/* keeping favorites bar aligned with main page content */
+#dropdown {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-left: 5%;
+    text-align: start !important;
+}
+
+/* rounded edges on dropdown menu items */
+#favorites-menu,
+#fav-games,
+#fav-tracks {
+    background:rgb(240, 240, 240);
+    border-radius: 8px;
+    box-shadow: 3px 3px 15px rgb(175, 175, 175);
+    
+}
+
+#favorites-menu-parent {
+    margin: 0;
+}
+/* hover effect also has rounded edges in dropdown */
+#games-heading-a {
+    border-radius: 8px 8px 0 0;
+}
+
+/* hiding trash icon until its a tag is hovered over */
+#trash-img {
+    opacity: 0;
+    margin-left: 34%; 
+    transition: 0.2s ease-in-out;
+}
+
+#clear-favorites-a:hover > #trash-img {
+    opacity: 0.7;
+}
+
+#clear-favorites-a:hover {
+    color: rgb(245, 55, 55);
+    transition: 0.2s ease-in-out;
+}
+
+#middle {
+    margin-bottom: 2%;
+}
+/* #free-to-play {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 4%; /* 2 6 6 6 
+} */
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  .modal-error {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: red; /* Fallback color */
+    background-color: rgba(255,0,0,0.4); /* Black w/ opacity */
+  }
+
+  /* Modal Content/Box */
+  .modal-greeting-content {
+    background-color: black;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 16px; /* Rounded corners */
+    box-shadow: 5px 5px 20px rgb(15, 15, 15);
+    width: 80%; /* Could be more or less, depending on screen size */
+    text-align: center;
+  }
+
+  .modal-error-content {
+    background-color: rgb(245, 55, 55);
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 16px;
+    width: 50%; /* Could be more or less, depending on screen size */
+    text-align: center;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
