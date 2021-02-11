@@ -8,13 +8,13 @@ The goal of GameBops is to deliver a way for fans of games and music to find and
 ### link to Foundation - https://cdnjs.com/libraries/foundation
 ### link to presentation slides - https://prezi.com/view/LiYGtscPqUUmilOnJyX0
 
-### link to the website - https://patrick-kaczmar.github.io/GameBops/
+### link to the website - https://cheetboy159.github.io/GamesBop/
 
 # Website preview -
 ![website-preview](assets/images/GameBops.png)
 
 ## This application was made in collaboration with -
+### Mena Wahba - https://github.com/cheetboy159
 ### patrick Kaczmar - https://github.com/Patrick-Kaczmar
 ### Aaron Walls - https://github.com/Ajwwashere
 ### Greg Riss - https://github.com/gregriss
-### Mena Wahba - https://github.com/cheetboy159
